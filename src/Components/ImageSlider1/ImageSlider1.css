@@ -1,0 +1,103 @@
+/* .carousel-control-prev,
+.carousel-control-next {
+  bottom: -75%;
+  color: black;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  background-color: white;
+}
+.main > h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 30px;
+}
+.caro {
+  position: absolute;
+  left: 300px;
+  top: 60px;
+  width: 100vw;
+  background-color: white;
+}
+
+h3 {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    background-color: white;
+  }
+
+  .main > h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+} */
+
+.display-3 {
+    color: #000;
+}
+
+.topSlider {
+    background-color: #fbf9f2;
+}
+
+/* .carousel-indicators li{
+    width: 30px;
+    height: 8px;
+    color: black!important;
+    border: none;
+    border-radius: 6px;
+    text-indent: -999px!important;
+  } */
+
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 100px!important;
+    height: 25px!important;
+    margin: 1rem!important;
+    font-size: 1rem!important;
+    text-align: center!important;
+    border-radius: 0!important;
+    border: none!important;
+    background: #fbf9f2!important;
+    text-indent: 0!important;
+}
+
+.carousel-indicators li.active {
+    background: #fff!important;
+    text-decoration: underline!important;
+}
+
+.view-btn {
+    color: #d5bf79!important;
+    border: 1px solid #d5bf79!important;
+}
+
+.view-btn:hover {
+    color: white!important;
+    background-color: #d5bf79!important;
+}
+
+@media only screen and (max-width: 575px) {
+    .carousel-indicators li, .carousel-indicators li.active {
+        width: 80px!important;
+        height: 25px!important;
+        margin: 0.5rem!important;
+        font-size: 1rem!important;
+        text-align: center!important;
+        border-radius: 0!important;
+        border: none!important;
+        background: #fbf9f2!important;
+        text-indent: 0!important;
+    }
+    .display-5{
+        font-size: 1rem!important;
+    }
+    .view-btn {
+        font-size: 0.8rem!important;
+        margin: 0.5rem auto!important;
+    }
+}
