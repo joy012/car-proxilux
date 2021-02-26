@@ -1,0 +1,32 @@
+footer{
+    /* width:100%; */
+    background: #000;
+    padding-top: 60px;
+    }
+    footer h5{
+        color: white;
+    }
+    footer p{
+        color: white;
+    }
+    .proxilus{
+        padding-top: 30px;
+        color: white;
+    }
+ 
+    .line{
+        content: "";
+        display: block;
+        width:90%;
+        height: 1px;
+        background:gray !important;
+        margin-left: 20px !important;
+        margin: 10px 0px;
+        
+    }
+    .privacy{
+        margin: 0px 10px !important;
+    }
+    .golden{
+        color: #d1bb72;
+    }

@@ -57,7 +57,7 @@ const CityCarousel = () => {
                         partialVisibilityGutter: 30
                     }
                 }}
-                showDots={true}
+                showDots={false}
                 sliderClass="react-multi-carousel-track"
                 slidesToSlide={1}
                 swipeable={true}

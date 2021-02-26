@@ -39,6 +39,45 @@
   .banner-p{
     font-size: 1.5rem;
   }
+
+
+  .carousel-bg {
+    min-height: 80vh;
+    width: 100%;
+    background: url(../../images//car1.jpg);
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    animation: chbg 5s infinite alternate;
+    background-size: 80%!important;
+    text-align: center;
+  }
+  @keyframes chbg {
+    0% {
+      background: url(../../images//car1.jpg);
+      background-size: cover;
+    }
+    20% {
+      background: url(../../images//car1.jpg);
+      background-size: cover;
+    }
+    40% {
+      background: url(../../images//car2.jpg);
+      background-size: cover;
+    }
+    60% {
+      background: url(../../images//car2.jpg);
+      background-size: cover;
+    }
+    80% {
+      background: url(../../images//car2.jpg);
+      background-size: cover;
+    }
+    100% {
+      background: url(../../images//car1.jpg);
+      background-size: cover;
+    }
+  }
+
   
   @media only screen and (max-width: 575px){
     .banner-p{
@@ -49,6 +88,9 @@
     }
     .image{
         width: 25%;
+    }
+    .carousel-bg{
+      min-height: 20vh!important;
     }
   }
   

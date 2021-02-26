@@ -51,16 +51,16 @@ function Header() {
 
       <div className='banner'>
         <section className="container py-5 slider">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          {/* <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel"> */}
             <div class="carousel-inner d-block mx-auto">
-              <div class="carousel-item active">
-                <img src={car1} class="d-block w-75 mx-auto" alt="..." />
+              <div class="carousel-item carousel-bg active">
+                {/* <img src={car1} class="d-block w-75 mx-auto" alt="..." /> */}
               </div>
-              <div class="carousel-item">
-                <img src={car2} class="d-block w-75 mx-auto" alt="..." />
+              <div class="carousel-item carousel-bg">
+                {/* <img src={car2} class="d-block w-75 mx-auto" alt="..." /> */}
               </div>
             </div>
-          </div>
+          {/* </div> */}
         </section>
         <div className='floating'>
           <h1 className='display-4 text-white text-center'>Rent your luxury car, anywhere</h1>

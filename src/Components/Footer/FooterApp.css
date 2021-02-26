@@ -1,0 +1,20 @@
+.footer-btn{
+    background-color: #000!important;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+   text-align: center;
+   margin-right: 0.5rem;
+}
+.social-icon ul li i{
+    height: 40px;
+    width: 40px;
+    color: white;
+    line-height: 40px;
+    background-color:black;
+    border-radius: 100%;
+}
+.footerBar{
+    background-color: #d1bb72;
+}

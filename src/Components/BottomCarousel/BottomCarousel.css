@@ -1,0 +1,25 @@
+.carousel-item img{
+    border-radius: 12px!important;
+}
+.carousel-caption{
+    width: 20%!important;
+    height: 100%!important;
+    left: 25%!important;
+    top: 0!important;
+    bottom: 0!important;
+    right: 0!important;
+    background-color: black;
+    opacity: 0.5;
+    text-align: left;
+    
+}
+.link{
+    text-decoration: none!important;
+    color: #d1bb72!important;
+}
+.link:hover{
+    color: #d1bb72!important;
+}
+.bottom-slider{
+    background-color: #fbf9f2;
+}
